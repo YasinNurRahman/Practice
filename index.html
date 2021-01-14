@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="description" content="This shows description on google search page.">
     <meta name="author" content="eBoy">
+    <link rel="icon" href="icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>practice website</title>
   </head>
   <body>
@@ -11,7 +13,7 @@
     <hr>
     <p>
     This is a paragraph.<br>
-    <i>italic</i> <b>bold</b><br>
+    <i>italic</i> <b>bold</b> <mark>Marked</mark> <del>Crossed text</del> <br>
     <big>big tag</big> <small>small tag</small><br>
     H<sub>2</sub>SO<sub>4</sub> - sub tag <br>
     (a+b)<sup>2</sup>= a<sup>2</sup>+2ab+b<sup>2</sup> - super tag <br>
@@ -118,11 +120,18 @@
         <input type="checkbox" name="" value=""> Shirt<br>
         <input type="checkbox" name="" value=""> Pant<br>
         <input type="checkbox" name="" value=""> Shoe<br>
-        <label>Add a file: </label>
+        <label>Add a file: </label><br>
         <input type="file"><br>
+        <select name="products" id="products">
+          <option value="i7 9700">Intel i7(Locked)</option>
+          <option value="i7 9800k">Intel i7(Unlocked)</option>
+          <option value="ryzen 2700x">ryzen 2nd</option>
+          <option value="rzen 3700x">ryzen 3rd</option>
+        </select><br>
         <label>Type your message: </label><br>
         <textarea name="name" rows="8" cols="40">Enter a paragraph.</textarea><br>
         <input type="submit">
+
 
       </form>
     </p>
@@ -132,6 +141,6 @@
     </p>
     <a href="https://www.google.com" target="_blank" title="Google homepage on new tab."><h4><big>Google</big></h4></a>
     <a href="extra/page2.html">Page 2: Inside of a folder of this current page. </a><br>
-    <a href="page3.html">Page3: Link to another page file is located in the folder one level up from the current folder.</a><br>
+    <a href="page3.html">Page 3: Link to same in the folder the current folder.</a><br>
   </body>
 </html>
